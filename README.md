@@ -25,6 +25,32 @@
     + Realtime Chat with Doctor
 
 
+# Setup
+* Git Clone the Project
+* Install the Xampp and place the project in htdocs(Xammp's install location) folder
+* Intall Composer 
+* Open project with VS code
+* Open the terminal on Vscode and Run the Following Commands
+    + composer install
+    + npm install
+    + npm run dev
+* Now in Xammp Open Php myadmin and create a databse with name'doctor_mangement'
+* Then Run this Following only once Command
+    + php artisan migrate:fresh
+    + php artisan db:seed
+    + php artisan storage:link
+    + php artisan websockets:serve
+* Now Every time you open this project then you have to run foloowing command only
+    + php artisan websockets:serve
+* you can visit the website from browser typing 'localhost'
+* you have to login the project with default admin credential
+    + User Name: al@gmail.com
+    + Password : password
+* from there you can approve patient's register request
+
+
+
+
 # Technologies used in this project
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
@@ -37,4 +63,4 @@
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
