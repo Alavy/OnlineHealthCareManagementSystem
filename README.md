@@ -1,5 +1,4 @@
-# Online Health Care Management System
-### Online HealthCare Management System is powerful, flexible, and easy to use platform developed to minimize the managerial constaraints the health industry commonly faced.
+# Online HealthCare Management System is powerful, flexible, and easy to use platform developed to minimize the managerial constaraints the health industry commonly faced.
 # Features 
 * Admin Panel: Manages the system's overall process 
     + Update Own Information
