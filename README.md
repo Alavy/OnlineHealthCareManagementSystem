@@ -34,7 +34,7 @@
     + composer install
     + npm install
     + npm run dev
-* Now in Xammp Open Php myadmin and create a databse with name'doctor_mangement'
+* Now in Xammp Open Php myadmin and create a databse with name 'doctor_mangement'
 * Then Run this Following only once Command
     + php artisan migrate:fresh
     + php artisan db:seed
@@ -52,6 +52,8 @@
 
 
 # Technologies used in this project
+
+# 1 . Laravel 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -59,6 +61,35 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+
+# 2. Laravel WebSockets :
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/beyondcode/laravel-websockets.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-websockets)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/beyondcode/laravel-websockets/run-tests?label=tests)
+[![Quality Score](https://img.shields.io/scrutinizer/g/beyondcode/laravel-websockets.svg?style=flat-square)](https://scrutinizer-ci.com/g/beyondcode/laravel-websockets)
+[![Total Downloads](https://img.shields.io/packagist/dt/beyondcode/laravel-websockets.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-websockets)
+
+# 3. Alpine.js
+
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/alpinejs)
+![npm version](https://img.shields.io/npm/v/alpinejs)
+[![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true)](https://alpinejs.codewithhugo.com/chat/)
+
+# 4. Tailwind CSS
+<p>
+    <a href="https://tailwindcss.com/" target="_blank">
+      <img alt="Tailwind CSS" width="350" src="https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg">
+    </a><br>
+    A utility-first CSS framework for rapidly building custom user interfaces.
+</p>
+
+<p>
+    <a href="https://travis-ci.org/tailwindcss/tailwindcss"><img src="https://img.shields.io/travis/tailwindcss/tailwindcss/master.svg" alt="Build Status"></a>
+    <a href="https://www.npmjs.com/package/tailwindcss"><img src="https://img.shields.io/npm/dt/tailwindcss.svg" alt="Total Downloads"></a>
+    <a href="https://github.com/tailwindcss/tailwindcss/releases"><img src="https://img.shields.io/npm/v/tailwindcss.svg" alt="Latest Release"></a>
+    <a href="https://github.com/tailwindcss/tailwindcss/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
+    <a href="https://codecov.io/gh/tailwindlabs/tailwindcss"><img src="https://codecov.io/gh/tailwindlabs/tailwindcss/coverage.svg?branch=master" alt="Code Coverage"></a>
 </p>
 
 ## License
