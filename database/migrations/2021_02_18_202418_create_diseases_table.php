@@ -19,6 +19,8 @@ class CreateDiseasesTable extends Migration
             $table->string('name');
             $table->unsignedBigInteger('doctor_id');
             $table->timestamps();
+            $table->foreign('doctor_id')->references('id')->on('doctors')->onDelete('cascade');
+
         });
     }
 

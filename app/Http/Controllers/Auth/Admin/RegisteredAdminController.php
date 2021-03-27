@@ -122,6 +122,7 @@ class RegisteredAdminController extends Controller
                 'patients.bloodGroup as bloodGroup','patients.address as address',
                 'patients.mobileNumber as mobileNumber')
             ->where('users.name','LIKE','%'.$q.'%')
+            ->where('users.approved','=',true)
             ->orWhere('users.email','LIKE','%'.$q.'%')
             ->orWhere('patients.sex','LIKE','%'.$q.'%')
             ->orWhere('patients.bloodGroup','LIKE','%'.$q.'%')

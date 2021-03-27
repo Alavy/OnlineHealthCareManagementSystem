@@ -20,6 +20,8 @@ class CreatePrescriptionsTable extends Migration
             $table->string('path');
             $table->boolean('approved');
             $table->timestamps();
+            $table->foreign('patient_id')->references('id')->on('patients')->onDelete('cascade');
+
         });
     }
 
